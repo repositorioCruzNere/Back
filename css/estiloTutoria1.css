@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box; /*redirecciona la caja*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    ;
+    text-decoration: none;
+}
+
+/*body{
+    background-image: url(../img/fondo1Tutoria9.jpg);
+}*/
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+}
+.header_superior{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    background-color:#30DDD2;
+
+}
+
+.titulo h1{
+   font-size: 45px;
+   color: #FFFFFF;
+}
+.search input{
+    width: 300px;
+    padding: 10px;
+
+}
+form{
+    width: 500px;
+    background: #D7DBDD;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'calibri';
+    font-size: 20px;
+    color: #000000;
+    box-shadow: 7px 13px 37px rgb(116, 113, 148);
+}
+form h4{
+    font-size: 35px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    background-color:#13ABA1;
+   margin-left: 38%;
+    width: 300px;
+    padding: 20x;
+    
+}
+INPUT[type=text]{
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5%;
+
+}
+INPUT[type=submit]
+{
+    width: 100%;
+    background: #F39C12 ;
+    font-family: 'calibri';
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5%;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    text-align: center;
+}
+
+INPUT[type=submit]:hover{
+
+    background: #DC7633;
+}
+.lis{
+    width: 700px;
+    background: #D7DBDD;
+    text-decoration: none;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border: none;
+    border-radius: 4px;
+    font-family: 'calibri';
+    font-size: 20px;
+    color: #000000;
+    box-shadow: 7px 13px 37px rgb(116, 113, 148);
+}
+.lis ul {
+    list-style-type: none;
+  }
+  /*.lis ul li {
+   
+  }*/
+
+  
